@@ -1,8 +1,4 @@
 <div id="top"></div>
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -66,12 +62,12 @@ This is a cryptocurrency webapp that was built to do 4 main things:
 ### Built With
 
 * [React.js](https://reactjs.org/)
-* [antd] (https://ant.design/)
-* [axios] (https://www.axios.com/)
-* [chart.js] (https://www.chartjs.org/)
-* [millify] (https://www.npmjs.com/package/millify)
-* [reduxjs/toolkit] (https://redux-toolkit.js.org/)
-* [RapidApi] (https://rapidapi.com/)
+* [antd](https://ant.design/)
+* [axios](https://www.axios.com/)
+* [chart.js](https://www.chartjs.org/)
+* [millify](https://www.npmjs.com/package/millify)
+* [reduxjs/toolkit](https://redux-toolkit.js.org/)
+* [RapidApi](https://rapidapi.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -158,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Kerry Davis - [@your_twitter](https://twitter.com/your_username) - pulsta@gmail.com
+Kerry Davis - [https://www.linkedin.com/in/kerry-davis-673081222] pulsta@gmail.com
 
 Project Link: [https://github.com/kerry-davis/cryptoview](https://github.com/kerry-davis/cryptoview)
 
@@ -177,8 +173,4 @@ I would like to thank the following for their hardwork which has made this proje
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/kerry-davis-673081222
 [product-screenshot]: src/images/screenshot.png
