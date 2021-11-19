@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Kerry Davis - [@LinkedIn](https://www.linkedin.com/in/kerry-davis-673081222) pulsta@gmail.com
+Kerry Davis - [@LinkedIn](https://www.linkedin.com/in/kerry-davis-673081222)
 
 Project Link: [@Project](https://github.com/kerry-davis/cryptoview)
 
