@@ -86,7 +86,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [RapidApi] (https://rapidapi.com/)
+1. Get a free API Key at [RapidApi](https://rapidapi.com/)
 2. Clone the repo
    ```sh
    git clone https://github.com/kerry-davis/cryptoview.git
@@ -154,9 +154,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Kerry Davis - [https://www.linkedin.com/in/kerry-davis-673081222] pulsta@gmail.com
+Kerry Davis - [@LinkedIn](https://www.linkedin.com/in/kerry-davis-673081222) pulsta@gmail.com
 
-Project Link: [https://github.com/kerry-davis/cryptoview](https://github.com/kerry-davis/cryptoview)
+Project Link: [@Project](https://github.com/kerry-davis/cryptoview)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
