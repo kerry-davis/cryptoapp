@@ -37,20 +37,20 @@ const Navbar = () => {
         </Button>
       </div>
       {activeMenu && (
-      <Menu theme="dark">
-        <Menu.Item icon={<HomeOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
-          <Link to="/" >Home</Link>
-        </Menu.Item>
-        <Menu.Item icon={<FundOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
-          <Link to="/cryptocurrencies">Cryptocurrencies</Link>
-        </Menu.Item>
-        <Menu.Item icon={<MoneyCollectOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
-          <Link to="/exchanges">Exchanges</Link>
-        </Menu.Item>
-        <Menu.Item icon={<BulbOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
-          <Link to="/news">News</Link>
-        </Menu.Item>
-      </Menu>
+        <Menu theme="dark">
+          <Menu.Item icon={<HomeOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
+            <Link to="/" >Home</Link>
+          </Menu.Item>
+          <Menu.Item icon={<FundOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
+            <Link to="/cryptocurrencies">Cryptocurrencies</Link>
+          </Menu.Item>
+          <Menu.Item icon={<MoneyCollectOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
+            <Link to="/exchanges">Exchanges</Link>
+          </Menu.Item>
+          <Menu.Item icon={<BulbOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
+            <Link to="/news">News</Link>
+          </Menu.Item>
+        </Menu>
       )}
     </div>
   )

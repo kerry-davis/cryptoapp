@@ -2,7 +2,7 @@ import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom'
 import { Layout, Typography, Space } from 'antd'
 
-import { Navbar, Exchanges, Homepage, Cryptocurrencies, News, CryptoDetails } from './components'
+import { Navbar, Exchanges, Homepage, Cryptocurrencies, News, CryptoDetails, ScrollToTop } from './components'
 import './App.css'
 
 const App = () => {
@@ -14,18 +14,19 @@ const App = () => {
       <div className="main">
         <Layout>
           <div className="routes">
+            {/* <ScrollToTop /> */}
             <Switch>
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/exchanges" component={Exchanges} />
-            <Route exact path="/cryptocurrencies" component={Cryptocurrencies} />
-            <Route exact path="/crypto/:coinId" component={CryptoDetails} />
-            <Route exact path="/news" component={News} />
+              <Route exact path="/" component={Homepage} />
+              <Route exact path="/exchanges" component={Exchanges} />
+              <Route exact path="/cryptocurrencies" component={Cryptocurrencies} />
+              <Route exact path="/crypto/:coinId" component={CryptoDetails} />
+              <Route exact path="/news" component={News} />
             </Switch>
           </div>
         </Layout>
 
         <div className="footer">
-          <Typography.Title level={5} style={{color: 'white', textAlign: 'center '}}>
+          <Typography.Title level={5} style={{ color: 'white', textAlign: 'center ' }}>
             Crypto View <br />
             All rights reserved
           </Typography.Title>
