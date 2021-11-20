@@ -6,7 +6,7 @@ import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOut
 import icon from '../images/cryptoview-logo.png'
 
 const Navbar = () => {
-  const [activeMenu, setActiveMenu] = useState(true)
+  const [activeMenu, setActiveMenu] = useState(false)
   const [screenSize, setScreenSize] = useState(undefined)
 
   useEffect(() => {
@@ -38,16 +38,16 @@ const Navbar = () => {
       </div>
       {activeMenu && (
       <Menu theme="dark">
-        <Menu.Item icon={<HomeOutlined />}>
+        <Menu.Item icon={<HomeOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
           <Link to="/" >Home</Link>
         </Menu.Item>
-        <Menu.Item icon={<FundOutlined />}>
+        <Menu.Item icon={<FundOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
           <Link to="/cryptocurrencies">Cryptocurrencies</Link>
         </Menu.Item>
-        <Menu.Item icon={<MoneyCollectOutlined />}>
+        <Menu.Item icon={<MoneyCollectOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
           <Link to="/exchanges">Exchanges</Link>
         </Menu.Item>
-        <Menu.Item icon={<BulbOutlined />}>
+        <Menu.Item icon={<BulbOutlined />} onClick={() => screenSize <= 800 && setActiveMenu(!activeMenu)} >
           <Link to="/news">News</Link>
         </Menu.Item>
       </Menu>
