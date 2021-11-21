@@ -16,7 +16,6 @@ const App = () => {
       <div className="main">
         <Layout>
           <div className="routes">
-            {/* <ScrollToTop /> */}
             <Switch>
               <Route exact path="/" component={Homepage} />
               <Route exact path="/exchanges" component={Exchanges} />
