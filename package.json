@@ -13,7 +13,6 @@
     "axios": "^0.21.1",
     "chart.js": "^3.5.1",
     "html-react-parser": "^1.2.8",
-    "logrocket": "^2.1.2",
     "millify": "^4.0.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
