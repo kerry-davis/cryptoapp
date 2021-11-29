@@ -15,7 +15,7 @@ const demoImage = 'https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=Ne
 
 const News = ( { simplified }) => {
   const [newsCategory, setNewsCategory] = useState('Cryptocurrency')
-  const { data } = useGetCryptosQuery(100)
+  const { data: cryptoData } = useGetCryptosQuery(100)
   const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory, count: simplified ? 6 : 12 })
 
   if(!cryptoNews?.value) return <Loader />
@@ -33,7 +33,7 @@ const News = ( { simplified }) => {
             filterOption={(input, option) => option.children[0].toLowerCase().indexOf(input.toLowerCase()) >= 0}
           >
             <Option value="Cryptocurency">Cryptocurrency</Option>
-            {data?.data?.coins?.map((currency) => <Option value={currency.name}>{currency.name}</Option>)}
+            {cryptoData?.data?.coins?.map((currency) => <Option value={currency.name}>{currency.name}</Option>)}
           </Select>
         </Col>
       )}
