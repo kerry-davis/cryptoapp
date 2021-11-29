@@ -14,8 +14,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -42,14 +40,14 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://cryptoviewapp.netlify.app)
 
-This is a cryptocurrency webapp that was built to do 4 main things: 
+This is a cryptocurrency webapp that was built to do 4 main things:
+
 <ol>
   <li>View the Top 100 Cryptocurrencies</li>
   <li>View the Top Cryptocurrencies Exchanges</li>
@@ -61,17 +59,18 @@ This is a cryptocurrency webapp that was built to do 4 main things:
 
 ### Built With
 
-* [React.js](https://reactjs.org/)
-* [antd](https://ant.design/)
-* [axios](https://www.axios.com/)
-* [chart.js](https://www.chartjs.org/)
-* [millify](https://www.npmjs.com/package/millify)
-* [reduxjs/toolkit](https://redux-toolkit.js.org/)
-* [RapidApi](https://rapidapi.com/)
+- [React.js](https://reactjs.org/)
+- [antd](https://ant.design/)
+- [axios](https://www.axios.com/)
+- [chart.js](https://www.chartjs.org/)
+- [millify](https://www.npmjs.com/package/millify)
+- [reduxjs/toolkit](https://redux-toolkit.js.org/)
+- [RapidApi](https://rapidapi.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 If you're familiar with git and npm then you will have no issues with cloning and installing this repo.
@@ -79,7 +78,8 @@ If you're familiar with git and npm then you will have no issues with cloning an
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -107,15 +107,15 @@ This is an example of how to list things you need to use the software and how to
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Either navigate the Homepage and click the 'Show More' link to be taken to the other pages, or click the items in the navigation side bar
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Create pages and deploy
@@ -125,8 +125,8 @@ See the [open issues](https://github.com/kerry-davis/cryptoview/issues) for a fu
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -142,9 +142,8 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -152,6 +151,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Contact
 
 Kerry Davis: [@LinkedIn](https://www.linkedin.com/in/kerry-davis-673081222)
@@ -159,16 +159,16 @@ Kerry Davis: [@LinkedIn](https://www.linkedin.com/in/kerry-davis-673081222)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 I would like to thank the following for their hardwork which has made this project possible
 
-* [JS Mastery](https://jsmastery.org/)
-* [Best Readme Template](https://github.com/othneildrew/Best-README-Template)
-
+- [JS Mastery](https://jsmastery.org/)
+- [Best Readme Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [product-screenshot]: src/images/screenshot.png
