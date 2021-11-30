@@ -61,7 +61,6 @@ This is a cryptocurrency webapp that was built to do 4 main things:
 
 - [React.js](https://reactjs.org/)
 - [antd](https://ant.design/)
-- [axios](https://www.axios.com/)
 - [chart.js](https://www.chartjs.org/)
 - [millify](https://www.npmjs.com/package/millify)
 - [reduxjs/toolkit](https://redux-toolkit.js.org/)
